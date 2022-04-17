@@ -1,0 +1,29 @@
+cc_defaults {
+    name: "DisplayEventTracker_defaults",
+
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wunused",
+        "-Wunreachable-code",
+    ],
+
+    shared_libs: [
+        "libbase",
+        "libbinder",
+        "libcutils",
+        "liblog",
+        "libutils",
+        "libui",
+        "libgui",
+    ],
+}
+
+// ===========================================================
+
+cc_binary {
+    name: "DisplayEventTracker",
+    defaults: ["DisplayEventTracker_defaults"],
+
+    srcs: ["DisplayEventTracker.cpp", "main_test.cpp"],
+}
