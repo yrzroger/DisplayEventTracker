@@ -20,7 +20,7 @@
    DisplayEventTracker -i 3 : 表示vsync rate = 3, 每3个vsync才会通知一次    
    DisplayEventTracker -i 0 : 除非调用requestNextVsync，否则不会收到vsync event,此时可以输入‘r’来调用requestNextVsync    
 
-# 结果展示1       
+# 结果展示    
 #### $ DisplayEventTracker       
 Vsync received: count=12913           
 Vsync received: count=12914     16.683403 ms (59.939808 Hz)      
