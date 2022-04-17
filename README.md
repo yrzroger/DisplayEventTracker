@@ -18,4 +18,4 @@
 3. 示例命令      
    DisplayEventTracker ：默认vsync rate = 1, 每个vsync到来时都会收到该event   
    DisplayEventTracker -i 3 : 表示vsync rate = 3, 每3个vsync才会通知一次    
-   DisplayEventTracker -i 0 : 除非调用requestNextVsync，否则不会收到vsync event    
+   DisplayEventTracker -i 0 : 除非调用requestNextVsync，否则不会收到vsync event,此时可以输入‘r’来调用requestNextVsync    
