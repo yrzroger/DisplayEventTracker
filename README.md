@@ -9,8 +9,8 @@
 # 使用方法
 1. 放到android源码目录下，执行mm编译，得到可执行档DisplayEventTracker，adb push到测试板的/system/bin/下
 2. 在console下执行DisplayEventTracker -h,可以查看简单的命令说明
-    usage:  DisplayEventTracker [options]
-          ------------------------------------ options ---------------------------------------------
+     usage:  DisplayEventTracker [options] 
+          ------------------------------------ options --------------------------------------------- 
           [-i] vsync rate(default:1)
           [-h] help
           input 'r' to call requestNextVsync or input 'q' to exit when running
